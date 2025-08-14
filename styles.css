@@ -1,0 +1,26 @@
+@import url(https://fonts.google.com/share?selection.family=Outfit:wght@400..700);
+body {background-color:hsl(212, 45%, 89%) ;
+  font-family: 'Outfit', sans-serif;
+min-height:100vw;
+display:flex;
+align-items: center;
+}
+.container{max-width: 300px;
+margin:0 auto;
+}
+
+.qr-card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.qr-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+text p{
+  padding: 20px;
+  font-size:15px;
+  color:hsl(218, 44%, 22%)
+}
