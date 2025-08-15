@@ -4,6 +4,7 @@ body {background-color:hsl(212, 45%, 89%) ;
 min-height:100vw;
 display:flex;
 align-items: center;
+font-size:15px;
 }
 .container{max-width: 300px;
 margin:0 auto;
@@ -14,13 +15,19 @@ margin:0 auto;
   border-radius: 20px;
   text-align: center;
   padding: 20px;
+  margin:0 1em;
 }
-.qr-card img {
+.qr-image{
   width: 100%;
   border-radius: 10px;
 }
-text p{
-  padding: 20px;
-  font-size:15px;
+ .qr-text {
+  padding:22px 10px;}
+.qr-text h3 {font: size 15px;
+  padding-bottom:15px;
   color:hsl(218, 44%, 22%)
+}
+.qr-text p {
+  color:hsl(218, 44%, 22%);
+  padding: 10px;
 }
